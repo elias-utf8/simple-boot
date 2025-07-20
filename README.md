@@ -1,12 +1,12 @@
 # simple-boot
 A minimalist bootloader for educational purpose.
 
-### Requirements
+### Requirements
 ```
 sudo apt install nasm qemu
 ```
 
-### Compilation
+### Compilation
 ```
 nasm -f bin boot1.asm -o boot1.bin
 ```
