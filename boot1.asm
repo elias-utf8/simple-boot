@@ -1,3 +1,7 @@
+; Simple bootloader
+; Author : Elias GAUTHIER
+; Date : 21/07/2025
+
 org 0x7c00 ; Lets load firts 512 bytes
 boot:
     mov si,hello ; Point "si" register to str memory location
