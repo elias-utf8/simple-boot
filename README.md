@@ -1,5 +1,5 @@
 # simple-boot
-A minimalist bootloader for educational purpose.
+A simple bootloader in 16 bit mode.
 
 ### Requirements
 ```
