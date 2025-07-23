@@ -16,7 +16,7 @@ boot:
     mov si,hello ; Point "si" register to str memory location
 .loop1:
     lodsb ; Load the first char of SI in AL and increment SI
-    or al,al ; Is AL == 0 ? (end of string)
+    or al,al ; Is Al == 0 ? (end of string)
     jz .second_string  ; If (al == 0) jump to second string
     int 0x10 ; Runs BIOS interrupt 0x10 to print char
     jmp .loop1
