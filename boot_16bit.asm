@@ -33,4 +33,4 @@ hello: db "Hello world! ",0
 date: db "20/07/2025",0
 times 510 - ($-$$) db 0         ; pad remaining 510 bytes with zeroes
 dw 0xaa55                       ; magic bootloader magic - 
-                                 ; marks this 512 byte sector bootable
+                                ; marks this 512 byte sector bootable
