@@ -8,10 +8,10 @@ sudo apt install nasm qemu
 
 ### Compilation
 ```
-nasm -f bin boot.asm -o boot.bin
+nasm -f bin bootloader.asm -o build/bootloader.bin
 ```
 
 ### Run
 ```
-qemu-system-x86_64 -fda boot.bin
+qemu-system-x86_64 -fda bootloader.bin
 ```
