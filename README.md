@@ -1,6 +1,4 @@
 # simple-boot
-A simple bootloader.
-
 ### Requirements
 ```
 sudo apt install nasm qemu
