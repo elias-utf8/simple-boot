@@ -1,4 +1,5 @@
 # simple-boot
+I will never use assembly again. 
 ### Requirements
 ```
 sudo apt install nasm qemu
